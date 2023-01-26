@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Helvetica Now';
+    src: url('../../src/assets/fonts/helvetica-now/HelveticaNowText-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Amsterdam Four';
+    src: url('../../src/assets/fonts/amsterdam/Amsterdam_Four_400.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('../../src/assets/fonts/bebas-neue/BebasNeueBold.woff2') format('woff2');
+}
+
+html,
+body {
+    @apply
+    overflow-hidden
+    font-proxima-nova
+    antialiased
+    font-normal
+    tracking-normal
+    leading-none
+    list-none
+    text-center
+    text-white
+    no-underline
+    normal-case
+    scroll-smooth
+    scroll-mt-12
+    snap-start;
+}
+
+* {
+    @apply box-border;
+}
+
+h1 {
+    @apply text-2xl;
+}
+
+h2 {
+    @apply text-[1.5ren];
+}
+
+h3 {
+    @apply text-[1.172rem];
+}
