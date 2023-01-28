@@ -1,5 +1,3 @@
-'use strict';
-
 import './assets/global.css';
 import App from './pages/app/App';
 import ReactDOM from 'react-dom/client';
