@@ -23,7 +23,7 @@ const Input = forwardRef<HTMLInputElement, InputProps>(
   (
     {
       className,
-      color = undefined,
+      color = 'primary',
       disabled = false,
       label,
       name,
