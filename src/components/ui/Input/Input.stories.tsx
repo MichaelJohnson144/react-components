@@ -30,7 +30,7 @@ const Template: ComponentStory<typeof Input> = (args) => {
 
 export const Default = Template.bind({});
 Default.args = {
-  color: undefined,
+  color: 'primary',
   disabled: false,
   label: 'Label',
   name: 'Name',
