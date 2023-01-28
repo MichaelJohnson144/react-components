@@ -1,6 +1,5 @@
-import React from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
 import SectionMenu from './SectionMenu';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
   title: 'Components/SectionMenu',
