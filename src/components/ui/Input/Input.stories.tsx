@@ -1,6 +1,6 @@
 import React, { ChangeEvent, useState } from 'react';
-import { ComponentMeta, ComponentStory } from '@storybook/react';
 import Input from './Input';
+import { ComponentMeta, ComponentStory } from '@storybook/react';
 
 export default {
   title: 'Components/Input',
