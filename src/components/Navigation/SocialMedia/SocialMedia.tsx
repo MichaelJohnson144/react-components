@@ -7,8 +7,8 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 function handleTestOnClick(event: { preventDefault: () => void }) {
-  // Is the event "cancelable?" If so, then "''prevent' the ''default' action' that
-  // 'belongs to the 'event'' from occurring:'"
+  // Is the event "cancelable?"
+  // If so, then "''prevent' the ''default action that 'belongs to the 'event'' from occurring:'"
   event.preventDefault();
 }
 

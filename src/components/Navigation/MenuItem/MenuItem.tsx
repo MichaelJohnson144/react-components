@@ -11,7 +11,8 @@ interface MenuItemProps {
 }
 
 function handleTestOnClick(event: { preventDefault: () => void }) {
-  // Is the event "cancelable?" If so, then "''prevent' the ''default' action' that
+  // Is the event "cancelable?"
+  // If so, then "''prevent' the ''default action that
   // 'belongs to the 'event'' from occurring:'"
   event.preventDefault();
 }
