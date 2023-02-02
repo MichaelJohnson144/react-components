@@ -1,4 +1,4 @@
-/** @type {import('ts-jest').JestConfigWithTsJest} */
+/** @type {import("ts-jest").JestConfigWithTsJest} */
 module.exports = {
   /*
    * For a detailed explanation regarding each configuration property and type check, visit:
@@ -134,7 +134,7 @@ module.exports = {
   // snapshotSerializers: [],
 
   // The test environment that will be used for testing
-  testEnvironment: 'jsdom',
+  testEnvironment: 'jest-environment-jsdom',
 
   // Options that will be passed to the testEnvironment
   // testEnvironmentOptions: {},
