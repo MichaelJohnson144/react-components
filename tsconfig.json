@@ -2,9 +2,9 @@
   "compilerOptions": {
     "allowJs": true,
     "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
+      "DOM",
+      "DOM.Iterable",
+      "ESNext"
     ],
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
@@ -12,25 +12,24 @@
     "isolatedModules": true,
     "jsx": "react-jsx",
     "noEmit": true,
-    "module": "esnext",
+    "module": "ESNext",
     "moduleResolution": "node",
-    // "plugins": [
-    // {
-    //   "name": ""
-    //  }
-    // ]
     "resolveJsonModule": true,
     "skipLibCheck": true,
     "strict": true,
-    "target": "esnext",
+    "target": "ESNext",
     "types": [
-      "jest"
+      "jest",
+      "testing-library__jest-dom",
+      "node",
+      "react",
+      "react-dom"
     ]
   },
   "exclude": [
-    "node_modules",
     "cypress",
     "cypress.config.ts",
+    "node_modules",
     "src/__mocks__"
   ],
   "include": [
